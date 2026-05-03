@@ -1,28 +1,28 @@
-You are a senior backend batch-processing engineer, distributed workflow architect, and enterprise Golang systems maintainer.
+You are a senior backend batch-processing engineer and distributed file workflow architect.
 
-Bootstrap a professional Golang monorepo portfolio repository named:
+Bootstrap a professional Golang monorepo repository called:
 
 GO DISTRIBUTED FILE PROCESSOR
 
-This project must simulate a real distributed asynchronous backend platform responsible for receiving large file uploads, persisting them to object storage, validating records, processing batch jobs, generating reports, and notifying users when execution is complete.
+This project must simulate a real asynchronous distributed backend platform that receives files, validates content, processes large batches, generates reports and notifies users when processing is complete.
 
 ====================================================
-MAIN OBJECTIVE
+MAIN DELIVERABLE
 ====================================================
 
-Generate the complete professional initial repository foundation including:
+Generate:
 
 1. Full enterprise-grade README.md
-2. Realistic monorepo architecture skeleton
-3. Initial Golang bootstrap starter files
+2. Realistic monorepo skeleton
+3. Initial Golang starter files
 4. Docker Compose infrastructure
 5. Processing domain contracts/interfaces
 6. Architecture documentation
 7. Makefile
 8. .env.example
-9. GitHub-worthy engineering project presentation
+9. GitHub-quality engineering presentation
 
-This repository must look like a serious distributed file processing backend, not a toy upload app.
+This repository must look like a serious distributed file processing backend.
 
 ====================================================
 TECH STACK
@@ -35,30 +35,30 @@ Use:
 - Redis
 - MongoDB
 - RabbitMQ
-- MinIO (object storage)
+- MinIO or local object storage
 - Prometheus
 - Grafana
 - Jaeger/OpenTelemetry
 - Docker Compose
 - Clean Architecture
-- Domain Driven Design
+- DDD
 - SOLID
-- TDD mindset
+- TDD
 
 ====================================================
-BUSINESS CONTEXT
+BUSINESS FLOW
 ====================================================
 
-The platform should support a realistic enterprise batch-processing lifecycle:
+The platform should support:
 
 - file upload intake
 - object storage persistence
-- validation queue
-- batch record processing
+- validation pipeline
+- row batch processing
 - report generation
-- processing status polling
-- user notification dispatch
-- audit event persistence
+- status polling
+- user notification
+- processing audit logs
 
 Possible services:
 
@@ -67,37 +67,32 @@ Possible services:
 - processing-worker
 - report-worker
 - notification-worker
-- audit-service
 
 ====================================================
-README.MD MUST INCLUDE
+README MUST INCLUDE
 ====================================================
 
-Generate a polished professional README.md containing:
+Generate a professional README.md containing:
 
-- title and subtitle
+- title/subtitle
 - project overview
-- business problem statement
-- distributed processing goals
-- architecture principles
+- distributed file processing problem statement
+- architecture goals
 - service overview
-- file processing lifecycle
+- processing lifecycle
 - stack details
-- observability strategy
+- observability
 - testing strategy
 - monorepo structure
 - docker startup instructions
-- roadmap milestones
-- future enhancements
-- engineering value for backend portfolio presentation
-
-README must be written in polished professional GitHub English.
+- roadmap
+- engineering portfolio relevance
 
 ====================================================
-REPOSITORY STRUCTURE
+REPOSITORY TREE
 ====================================================
 
-Generate a FULL realistic monorepo tree including:
+Generate:
 
 cmd/
 internal/
@@ -107,7 +102,7 @@ docs/
 tests/
 scripts/
 
-and detailed service subfolders using:
+with:
 
 domain/
 application/
@@ -115,10 +110,10 @@ infrastructure/
 interfaces/
 
 ====================================================
-MANDATORY STARTER FILES
+MANDATORY FILES
 ====================================================
 
-Generate realistic starter content for:
+Generate starter content for:
 
 - docker-compose.yml
 - Makefile
@@ -128,18 +123,15 @@ Generate realistic starter content for:
 - docs/testing-strategy.md
 - docs/adr/0001-file-platform-architecture.md
 
-Starter files must contain realistic content, not TODO placeholders.
-
 ====================================================
-IMPORTANT OUTPUT FORMAT
+OUTPUT FORMAT
 ====================================================
 
-Output in this exact order:
+Output:
 
 1. COMPLETE README.md
 2. COMPLETE repository tree
-3. COMPLETE content of every starter file
+3. COMPLETE starter files content
 
-Do not summarize.
-Do not explain decisions.
-Directly generate the repository bootstrap.
+Do not explain.
+Generate directly.
